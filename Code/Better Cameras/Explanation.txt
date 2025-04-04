@@ -1,0 +1,7 @@
+CameraLimit
+
+Made CameraLimit stretch in Editor. Stretches from Top Left to Bottom Right (THIS BREAKS VANILLA CAMS. BE ADVISED)
+Made CameraWallL, and CameraWallR Stretch vertically in editor.
+Made CameraWallD stretch horizontally in editor.
+
+Fixes an issue where walking from a CameraLimit to a CameraWallD Region within a frame caused the Camera's yPosition to become locked.
