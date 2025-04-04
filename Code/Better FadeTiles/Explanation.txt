@@ -1,0 +1,5 @@
+Improves fadetiles in multiple ways.
+
+Fadetiles are now Stretchable in the editor. Stretch them over a region of tiles that you want to fade.
+Removed Flickering when moving between 2 fadetile regions on the same layer
+Added a safety check for placing fadetiles in a room where there is no valid tilelayer
