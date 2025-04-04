@@ -1,0 +1,3 @@
+Makes all Material variants of oSolid run event_inherited for the create event, which prevents crashing in stretchablebreakables.
+
+Provided by rm_steele

@@ -1,0 +1,2 @@
+Stretchable Breakables
+Allows stretching Breakable Objects in the Room Editor. This works by creating new copies of the object in all tiles within the stretched region, except the top left tile. Copies do not yet inherit RoomCC changed variables.
