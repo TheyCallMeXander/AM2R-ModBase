@@ -1,0 +1,10 @@
+base Enemy Rework
+- Rework the base enemy to require less specified behavior to function.
+- Move specific interactions to their own events, such as freezing or burning
+- Reassign old Enemy types (like Metroids and Bosses) to be children of oEnemy, and this affected by weapons that oEnemy would be.
+
+-  need a Parent objects for specific things (AKA Metroid and Boss)
+-  set specific interactions as collision events for certain weapons with event_inherited, then writing specifics can happen per enemy as usual
+
+
+General goal is to take all the broad things and comdense them, while leaving specific cases to specific targets.

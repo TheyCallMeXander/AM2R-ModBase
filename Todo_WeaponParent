@@ -1,0 +1,4 @@
+oWeaponParent System
+- Parent of all Weapons used against enemies and Bosses and blocks and etc
+- Stores initial values and attributes shared between all weapons, and specific values shared between certain weapons.
+- Helps with enemy referencing, since oEnemy likes to crash if a weapon is not specified as either supermissileicebeam or not.

@@ -1,0 +1,4 @@
+Rework Pausing
+- Remake pause menu in-room to reduce room transition memleaks
+- Also allows Multitroid pausing to be less disruptive/bad
+- Requires Global Object pausing, same as oGoto Reworks.

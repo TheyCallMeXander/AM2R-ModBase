@@ -1,0 +1,13 @@
+Room Gotos rewrite
+- Ideally targetX, targetY, and targetroom
+- remove rm_transition from the equation, lowering ram usage and lag
+- surface effect happens on the oControl end, with the transition effect, and camera values being set during the Surface's full opacity
+- Camera starts near door, with instant teleport to new fix position instead of capped speed.
+- everything in room is paused during the transition event
+- Fix Position for cam decided by camlimit, camwall, and screen edge.
+- transition effect happens after cam is fixed in the initial room frame
+- transition needs, x and y of player on screen after camera is fixed. find the difference and calculate new "screen position"
+- lerp surface pos to new screen pos like normal
+- unpause everything in room
+
+Main problem is setting all objects to not be active until transition is done, an issue I need solved for Pause Menu anyway

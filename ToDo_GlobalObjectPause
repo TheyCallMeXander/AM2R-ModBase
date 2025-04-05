@@ -1,0 +1,4 @@
+Global Object Pausing
+- Make all objects that need to move and affect the player subject to a Global pause system.
+- Enemies, Projectiles, Player, and mechanisms need to pause when exiting a new Goto, or when in a reworked Pause menu in Singleplayer
+- Can also be used in Cutscene events, special FX, and a TIMESTOP mechanic if we go that far :)
