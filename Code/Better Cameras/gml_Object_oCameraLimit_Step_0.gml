@@ -1,4 +1,4 @@
-if (oCharacter.x >= x && oCharacter.x <= (x + areax) && (oCharacter.y - 12) >= y && (oCharacter.y - 12) <= (y + areay)) // flip vertical signs for stretchable (experimental)
+if (oCharacter.x >= x && oCharacter.x <= (x + areax) && (oCharacter.y - 12) <= y && (oCharacter.y - 12) >= (y + areay))
 {
     oCamera.smoothin = smoothin
     if (oCamera.focus == 0)
