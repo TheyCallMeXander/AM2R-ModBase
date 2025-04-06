@@ -1,2 +1,0 @@
-oFadeTiles: changed Sprite Definition to use Stretch Graphics
-oCameraLimit: changed Sprite Definition to use Stretch Graphics

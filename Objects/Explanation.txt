@@ -1,0 +1,1 @@
+oFadeTiles: changed Sprite Definition to use Stretch Graphics
